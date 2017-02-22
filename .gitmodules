@@ -1,0 +1,3 @@
+[submodule "vendor/github.com/sirupsen/logrus"]
+	path = vendor/github.com/sirupsen/logrus
+	url = https://github.com/sirupsen/logrus.git

@@ -1,0 +1,6 @@
+project_root="$(cd $(dirname $0)/.. && pwd)"
+namespace='github.com/klingtnet'
+project_name="gogland-import-issue"
+full_path="$project_root/.go/src/$namespace/$project_name"
+
+# vim: set syntax=sh:
