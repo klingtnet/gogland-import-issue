@@ -5,6 +5,16 @@ Gogland fails to find imports in a symlinked GOPATH.
 
 ## Setup
 
+Call `s/bootstrap` (or `make`) and open the project in gogland with project `GOPATH` set to `/path/to/project/.go`.
+
+```sh
+$ s/bootstrap
+Submodule path 'vendor/github.com/sirupsen/logrus': checked out '7f4b1adc791766938c29457bed0703fb9134421a'
+linking "/tmp/gogland-import-issue" into local GOPATH: /tmp/gogland-import-issue/.go/src/github.com/klingtnet/gogland-import-issue
+```
+
+## Build
+
 `$ make`
 
 Expected output:
