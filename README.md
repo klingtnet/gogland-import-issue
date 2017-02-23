@@ -3,7 +3,7 @@
 This project should act as an example for the following import resolution issue [GO-3264](https://youtrack.jetbrains.com/issue/GO-3264#comment=27-1916217).
 ~~Gogland fails to find imports in a symlinked GOPATH.~~
 
-Jetbrains reacted with a [tutorial video](https://www.youtube.com/watch?v=XECBbvDT8Ao) on how to setup projects with a recursive `GOPATH`, awesome!
+~~Jetbrains~~@dlsniper reacted with a [tutorial video](https://www.youtube.com/watch?v=XECBbvDT8Ao) on how to setup projects with a recursive `GOPATH`, awesome!
 It works flawlessly if you setup the project as explained there or if you follow these steps:
 
 - call `s/bootstrap` (or `make`) to setup the local `GOPATH`
