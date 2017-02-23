@@ -14,7 +14,7 @@ Submodule path 'vendor/github.com/sirupsen/logrus': checked out '7f4b1adc7917669
 linking "/tmp/gogland-import-issue" into local GOPATH: /tmp/gogland-import-issue/.go/src/github.com/klingtnet/gogland-import-issue
 ```
 
-- open `/project/root/.go/src/github.com/klingtnet/gogland-import-issue` as in Gogland
+- open `/project/root/.go/src/github.com/klingtnet/gogland-import-issue` as project in Gogland
 
 ![Open project in Gogland](./gogland-open-project.png)
 
